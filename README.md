@@ -52,12 +52,14 @@ to compute the values and write them to a chan, and then it returns a lazy seque
 ### Pros
 - Common macros like `loop` previously weren't able to construct lazy sequences, but now they can
 - Clojure noobs who can only write imperative code (you know who you are) can now write their own lazy sequences
+
 ### Cons
 - Uses up to 2 threads if available
 - Much slower than their genuine lazy-sequence counterparts
 - More of a proof-of-concept than an actual library
+
 ## License
 
-Copyright © 2014 FIXME
+Copyright © 2014
 
 Distributed under the Eclipse Public License, the same as Clojure.
