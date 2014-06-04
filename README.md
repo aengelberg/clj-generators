@@ -32,7 +32,7 @@ infinite_range example above would translate to the following Clojure code:
 
 Add the following to your dependencies:
 
-	(no lein dependency yet)
+	[clj-generators "0.1.0-SNAPSHOT"]
 
 To make a generator in Clojure, simply use the `generator` macro, and insert instances of the `yield` macro
 within the generator.
