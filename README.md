@@ -37,6 +37,7 @@ Add the following to your dependencies:
 To make a generator in Clojure, simply use the `generator` macro, and insert instances of the `yield` macro
 within the generator.
 
+	(use 'clj-generators.core)
 	(generator
 	  (yield 1) ; return 1
 	  (yield 2 3)) ; return 2 and then 3
