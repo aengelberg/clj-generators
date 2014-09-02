@@ -45,7 +45,7 @@ within the generator.
 	
 	(take 3 (generator (yield 1 2 3 4 5)
 	                   (println "still computing"))) ; generators will only compute when values are requested
-	=> (0 1 2)
+	=> (1 2 3)
 
 What is essentially happening behind the scenes is that the generator spawns a go block
 to compute the values and write them to a chan, and then it returns a lazy sequence that reads from the chan.
